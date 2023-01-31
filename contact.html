@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+    body {
+        background-image: url("https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+        font-size: medium;
+    }
+
+    .container {
+        margin: 15%;
+        padding: 5vh;
+    }
+    #form{
+        text-align: center;
+        border: 200px;
+    }
+</style>
+
+<body>
+    <h1 id="form">FORM</h1>
+    <div class="container">
+        <form name="MyForm" action="#" onsubmit="return validateform()">
+            <div>
+                <label for="name"><b>NAME:-</b></label>
+                <input type="text" name="MyName" id="name">
+            </div>
+            <br>
+            <div>
+                <label for="email-id"><b>Email-Id:-</b></label>
+                <input type="email" name="email-id" id="email-id">
+            </div>
+            <br>
+            <div>
+                <label for="password"><b>Password:-</b></label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <br>
+            <div>
+                <label for="address"><b>Address:-</b></label>
+                <input type="text" name="address" id="address">
+            </div>
+            <br>
+            <div>
+                <label for="dateofbirth"><b>Date Of Birth:-</b></label>
+                <input type="date" name="date" id="date">
+            </div>
+            <br>
+            <div>
+                <label for="tick"><b>Are You 18+ ?</b></label>
+                <input type="checkbox" name="myeligibility" id="tick" checked>
+            </div>
+            <br>
+            <div>
+                <label for="gender"><b>Gender:-</b></label>
+                <input type="radio" name="gender" id="gender">
+                <label for="male"><b>Male</b></label>
+                <input type="radio" name="male" id="male">
+                <label for="female"><b>Female</b></label>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="textarea"><b>Descripton:-</b></label>
+                <textarea name="Descripton" id="textarea" cols="80" rows="9"></textarea>
+            </div>
+            <br>
+            <div>
+                <button type="button"><a href="index.html"><b>Submit</b></a></button>
+            </div>
+    </div>
+
+
+</body>
+
+</html>
